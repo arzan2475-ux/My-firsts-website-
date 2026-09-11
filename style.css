@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.lamp {
+  text-align: center;
+  padding: 40px;
+  background: #222;
+  border-radius: 20px;
+}
+
+.shade {
+  width: 120px;
+  height: 80px;
+  background: gold;
+  margin: 0 auto 30px;
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
+}
+
+input {
+  display: block;
+  width: 220px;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 12px 30px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
